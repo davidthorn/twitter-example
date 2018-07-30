@@ -36,6 +36,7 @@
     height: 60px;
     margin: 0px auto 0px auto;
     overflow: hidden;
+    position: relative;
 }
 
 .navbar-col1 {
@@ -50,13 +51,19 @@
     float: left;
     height: 100%;
     background-color: white;
+   
 }
 
 .navbar-col3 {
-    width: 26%;
+    width: 440px;
     float: right;
     height: 100%;
     background-color: white;
+    z-index: 100;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
 }
 
 .navbar-button {
