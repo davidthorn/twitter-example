@@ -1,0 +1,128 @@
+
+.navbar {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.navbar-line-wrapper {
+    height: 2px;
+    background-color: purple;
+    width: 100%;
+}
+
+.navbar-line-inner {
+    width: 1200px;
+    height: 2px;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+.navbar-line-col1 {
+    width: 26%;
+    float: left;
+    height: 100%;
+}
+
+.navbar-button-line {
+    width: 33.3%;
+    float: left;
+    height: 100%;
+}
+
+.navbar-inner {
+
+    width: 1200px;
+    height: 60px;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+}
+
+.navbar-col1 {
+    width: 26%;
+    float: left;
+    height: 100%;
+}
+
+.navbar-col2 {
+    width: 44%;
+    margin-left: 2%;
+    float: left;
+    height: 100%;
+    background-color: white;
+}
+
+.navbar-col3 {
+    width: 26%;
+    float: right;
+    height: 100%;
+    background-color: white;
+}
+
+.navbar-button {
+    margin-right: 0%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: #ddd;
+    overflow: hidden;
+
+}
+
+.navbar-notification-button {
+    width: 37.3%;
+}
+
+.navbar-home-button {
+    width: 27.3%;
+}
+
+.navbar-messages-button {
+    width: 35.3%;
+}
+
+.navbar-button:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.navbar-button:hover .navbar-button-line  {
+    background-color: red;
+}
+
+.icon {
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-image: url('/assets/bell.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.icon-messages {
+    background-image: url('/assets/message.png');
+}
+
+.icon-notifications {
+    background-image: url('/assets/bell.png');
+}
+.icon-home {
+    background-image: url('/assets/home.png');
+}
+
+.button-text {
+    font-size: 0.6em;
+    font-weight: 800;
+    color: #333;
+    height: 30px;
+    line-height: 29px;
+    margin-top: 15px;
+    margin-left: 0px;
+    float: left;
+ 
+}
