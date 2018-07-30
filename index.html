@@ -7,13 +7,14 @@
         <link href="/css/layout.css" rel="stylesheet"/>
         <link href="/css/navbar.css" rel="stylesheet"/>
         <link href="/css/profile-navbar.css" rel="stylesheet"/>
+        <link href="/css/followers-box.css" rel="stylesheet"/>
         <script src="/js/app.js" type="text/javascript"></script>
     </head>
     <body>
 
         <div class="wrapper">
-            
-                <div class="navbar" id="main-navbar">
+        
+            <div class="navbar" id="main-navbar">
                         <div class="navbar-inner" id="navbar-inner">
                             
                             <div class="navbar-col1">
@@ -35,11 +36,26 @@
                                 <div class="logo"></div>
                             </div>
         
-                            <div class="navbar-col3">
-                                <div class="profile-navbar-col1">col 1</div>
-                                <div class="profile-navbar-col2">col 2</div>
-                                <div class="profile-navbar-col3">col 3</div>
-                            </div>
+                            
+                            <div class="navbar-col3 right-navbar-section">
+                                    <div class="profile-navbar-col1">
+                                        <div class="search-box-wrapper">
+                                            <div class="search-container"></div>
+                                            <div class="search-button"></div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-navbar-col2">
+                                        <div class="user-icon">
+    
+                                        </div>
+                                    </div>
+                                    <div class="profile-navbar-col3">
+                                        <div class="tweet-button">
+                                            Tweet
+                                        </div>
+                                    </div>
+                                </div>
+                            
                         </div>
                         <div class="navbar-line-wrapper">
                             <div class="navbar-line-inner">
@@ -54,7 +70,33 @@
                     </div>
             
             <div class="mainbody" id="mainbody">
-                <div class="col1">col 1</div>
+                <div class="col1">
+
+
+                    <!-- Followers Box Begin -->
+
+                    <div class="followers-box">
+                        
+                        <div class="followers-box-user-info-wrapper">
+                            <div class="followers-box-user-icon-wrapper">
+                                <div class="followers-box-user-icon"></div>
+                                <div class="followers-box-user-name">
+                                    <p class="user-text-name">David Thorn</p>
+                                    <p class="user-name">@_davidthorn</p>
+                                </div>
+                            </div>
+                            <div class="followers-box-toolbar"></div>
+                        </div>
+                        <div class="followers-box-banner"></div>
+                    </div>
+
+                    <!-- Followers Box End -->
+
+
+
+
+
+                </div>
                 <div class="col2">col 2</div>
                 <div class="col3">col 3</div>
             </div>

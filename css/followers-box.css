@@ -1,0 +1,72 @@
+.followers-box {
+    height: 220px;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+    background-color: #fafafa;
+}
+
+.followers-box-banner {
+    position: absolute;
+    top: 0px;
+    left:0px;   
+    right: 0px;
+    height: 45%;
+    z-index: 1;
+}
+
+.followers-box-user-info-wrapper {
+    height: 70%;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    z-index: 1000!important;
+}
+
+.followers-box-toolbar {
+    height: 50%;
+    display: block;
+    width: auto;
+}
+
+.followers-box-user-icon-wrapper {
+    height: 50%;
+    display: block;
+    width: auto;
+    overflow: hidden;
+}
+
+.followers-box-user-icon {
+    height: 60px;
+    width: 60px;
+    float: left;
+    background-color: yellow;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-left: 10px;
+ 
+}
+
+.followers-box-user-name {
+    float: left;
+    margin-left: 15px;
+    margin-top: 35px;
+}
+
+.followers-box-user-name p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.followers-box-user-name p.user-text-name {
+    font-size: 1.0em;
+    font-weight: 800;
+
+}
+
+.followers-box-user-name p.user-name {
+    font-size: 0.8em;
+    font-weight: 200;
+}
