@@ -5,6 +5,7 @@
     overflow: hidden;
     margin-right: 10px;
     background-color: #fafafa;
+    border-radius: 2px;
 }
 
 .followers-box-banner {
@@ -29,6 +30,8 @@
     height: 50%;
     display: block;
     width: auto;
+    padding: 0 10px 0 10px;
+    margin-bottom: 10px;
 }
 
 .followers-box-user-icon-wrapper {
@@ -53,6 +56,7 @@
     height: 60px;
     width: auto;
     border-radius: 30px;
+    border: 2px solid white;
 }
 
 .followers-box-user-name {
@@ -75,4 +79,29 @@
 .followers-box-user-name p.user-name {
     font-size: 0.8em;
     font-weight: 200;
+}
+
+.followers-box-toolbar-col1,
+.followers-box-toolbar-col2,
+.followers-box-toolbar-col3 {
+    width: 33%;
+    float: left;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.tweets-toolbar-title {
+    font-size: 0.9em;
+    display: block;
+    margin: 0 5px 0 5px;
+    font-weight: 700;
+    color: #323642;
+}
+
+.tweets-toolbar-count {
+    font-size: 1.0em;
+    display: block;
+    margin: 8px 5px 0 8px;
+    color: #2598FF;
+    font-weight: 600;
 }
