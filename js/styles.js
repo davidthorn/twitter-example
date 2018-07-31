@@ -7,7 +7,8 @@ const handleColumnsSelector = (parent) => {
     }
 
     Array.from(rows).forEach(row => {
-        const rect = row.getBoundingClientRect()
+
+        const rect = row.getBoundingClientRect();
         let cols = row.querySelectorAll('[col]');
 
         cols.forEach(col => {
@@ -20,20 +21,8 @@ const handleColumnsSelector = (parent) => {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 const stylesWindowLoaded = () => {
-    
     handleColumnsSelector(document);
-
 }
 
 if (window.ready === undefined ) {

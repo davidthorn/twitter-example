@@ -59,12 +59,6 @@
     border: 2px solid white;
 }
 
-.followers-box-user-name {
-    float: left;
-    margin-left: 15px;
-    margin-top: 40px;
-}
-
 .followers-box-user-name p {
     padding: 0px;
     margin: 0px;
@@ -72,6 +66,8 @@
 
 .followers-box-user-name p.user-text-name {
     font-size: 1.0em;
+    margin-top: 40px;
+    margin-left: 10px;
     font-weight: 800;
 
 }
@@ -79,21 +75,13 @@
 .followers-box-user-name p.user-name {
     font-size: 0.8em;
     font-weight: 200;
-}
-
-.followers-box-toolbar-col1,
-.followers-box-toolbar-col2,
-.followers-box-toolbar-col3 {
-    width: 33%;
-    float: left;
-    height: 60px;
-    margin-top: 15px;
+    margin-left: 10px;
 }
 
 .tweets-toolbar-title {
     font-size: 0.9em;
     display: block;
-    margin: 0 5px 0 5px;
+    margin: 12px 5px 0 5px;
     font-weight: 700;
     color: #323642;
 }
