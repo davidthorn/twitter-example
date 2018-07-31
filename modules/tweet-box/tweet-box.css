@@ -27,15 +27,32 @@
 }
 
 .tweetbox-message-input-area {
-    height: 60%;
+    height: 72%;
     display:block;
     width: 100%;
     position: relative;
 }
 
 .tweetbox-toolbar-area {
-    height: 40%;
+    height: 28%;
     display:block;
     width: 100%;
 }
 
+.circle {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #98D8FF;
+    margin: 3px auto 0 auto;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+.circle p{
+    margin: 0px;
+   font-size: 2.5em;
+   text-align: center;
+   color: #98D8FF;
+  
+   line-height: 40px;
+}
