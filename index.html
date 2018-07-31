@@ -5,9 +5,9 @@
             Twitter Example
         </title>
         <link href="/css/layout.css" rel="stylesheet"/>
-        <link href="/css/navbar.css" rel="stylesheet"/>
-        <link href="/css/profile-navbar.css" rel="stylesheet"/>
-        <link href="/css/followers-box.css" rel="stylesheet"/>
+        <link href="/modules/navbar/navbar.css" rel="stylesheet"/>
+        <link href="/modules/profile-navbar/profile-navbar.css" rel="stylesheet"/>
+        <link href="/modules/followers-box/followers-box.css" rel="stylesheet"/>
         <link href="/css/right-navbar.css" rel="stylesheet"/>
         <script src="/js/app.js" type="text/javascript"></script>
     </head>
@@ -15,113 +15,15 @@
 
         <div class="wrapper">
         
-            <div class="navbar" id="main-navbar">
-                        <div class="navbar-inner" id="navbar-inner">
-                            
-                            <div class="navbar-col1">
-                                <div class="navbar-button navbar-home-button">
-                                    <span class="icon icon-home">
-                                        <img src="/assets/home.svg"/>
-                                    </span>
-                                    <span class="button-text">Home</span>
-                                </div>
-                                <div class="navbar-button navbar-notification-button" >
-                                    <span class="icon icon-notification">
-                                        <img src="/assets/bell.svg"/>
-                                    </span>
-                                    <span class="button-text">Notifications</span>
-                                </div>
-                                <div class="navbar-button navbar-messages-button">
-                                    <span class="icon icon-messages">
-                                        <img src="/assets/message.svg"/>
-                                    </span>
-                                    <span class="button-text">Messages</span>
-                                </div>
-                            </div>
-        
-                            <div class="navbar-col2">
-                                <div class="logo"></div>
-                            </div>
-        
-                            
-                            <div class="navbar-col3 right-navbar-section">
-                                    <div class="profile-navbar-col1">
-                                        <div class="search-box-wrapper">
-                                            <div class="search-container"></div>
-                                            <div class="search-button"></div>
-                                        </div>
-                                    </div>
-                                    <div class="profile-navbar-col2">
-                                        <div class="user-icon">
-    
-                                        </div>
-                                    </div>
-                                    <div class="profile-navbar-col3">
-                                        <div class="tweet-button">
-                                            Tweet
-                                        </div>
-                                    </div>
-                                </div>
-                            
-                        </div>
-                        <div class="navbar-line-wrapper">
-                            <div class="navbar-line-inner">
-                                    <div class="navbar-line-col1">
-                                            <div class="navbar-button-line"></div>
-                                            <div class="navbar-button-line"></div>
-                                            <div class="navbar-button-line"></div>
-                                    </div>
-                            </div>
-                            
-                        </div>
-                    </div>
-            
+             <!-- Main Navbar Box Begin -->
+            <div class="navbar" template="/modules/navbar/navbar.html" id="main-navbar"></div>
+             <!-- Main Navbar Box End -->
+
             <div class="mainbody" id="mainbody">
                 <div class="col1">
-
-
                     <!-- Followers Box Begin -->
-
-                    <div class="followers-box">
-                        
-                        <div class="followers-box-user-info-wrapper">
-                            <div class="followers-box-user-icon-wrapper">
-                                <div class="followers-box-user-icon">
-                                        <img src="/assets/user-icon.jpg"/>
-                                </div>
-                                <div class="followers-box-user-name">
-                                    <p class="user-text-name">David Thorn</p>
-                                    <p class="user-name">@_davidthorn</p>
-                                </div>
-                            </div>
-                            <div class="followers-box-toolbar">
-
-                                <div class="followers-box-toolbar-col1">
-                                    <span class="tweets-toolbar-title">Tweets</span>
-                                    <span class="tweets-toolbar-count">4</span>
-                                </div>
-                                <div class="followers-box-toolbar-col2">
-                                        <span class="tweets-toolbar-title">Following</span>
-                                        <span class="tweets-toolbar-count">15</span>
-                                </div>
-                                <div class="followers-box-toolbar-col3">
-                                        <span class="tweets-toolbar-title">Followers</span>
-                                        <span class="tweets-toolbar-count">5</span>
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="followers-box-banner">
-                            <img src="/assets/user-banner.jpg"/>
-                        </div>
-                    </div>
-
+                    <div class="followers-box" template="/modules/followers-box/followers-box.html"></div>
                     <!-- Followers Box End -->
-
-
-
-
-
                 </div>
                 <div class="col2">col 2</div>
                 <div class="col3">col 3</div>
