@@ -1,5 +1,7 @@
 const loadTemplates = (parent) => {
     
+    handleColumnsSelector(parent);
+
     /// Find all tags which have the attribute template
     const items = parent.querySelectorAll('[template]');
     
@@ -28,6 +30,14 @@ const loadTemplates = (parent) => {
 
 const onWindowLoaded = () => {
     loadTemplates(document);
+    
+    if (window.ready === undefined) {
+        return;
+    }
+
+    window.ready.forEach(cb => {
+        cb();
+    });
 }
 
 window.onload = onWindowLoaded;

@@ -7,10 +7,6 @@
 }
 
 .tweetbox-user-icon-col {
-    float: left;
-    margin-top: 12px;
-    width: 16%;
-    height: 100%;
     overflow: hidden;
 }
 
@@ -27,10 +23,6 @@
 
 
 .tweetbox-message-content {
-    float: right;
-    width: 82%;
-    height: 100%;
-    margin-top: 12px;
     overflow: hidden;
 }
 
