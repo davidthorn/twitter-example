@@ -49,10 +49,16 @@
  
 }
 
+.followers-box-user-icon img {
+    height: 60px;
+    width: auto;
+    border-radius: 30px;
+}
+
 .followers-box-user-name {
     float: left;
     margin-left: 15px;
-    margin-top: 35px;
+    margin-top: 40px;
 }
 
 .followers-box-user-name p {
