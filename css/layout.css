@@ -30,8 +30,8 @@ body {
     width: 50%;
     margin-left: 2%;
     float: left;
-    height: 300px;
-    background-color: tomato;
+    height: auto;
+    
 }
 
 .col3 {
