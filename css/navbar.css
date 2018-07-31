@@ -112,14 +112,17 @@
 }
 
 .icon-messages {
-    background-image: url('/assets/message.png');
+   
 }
 
 .icon-notifications {
-    background-image: url('/assets/bell.png');
+    
 }
-.icon-home {
-    background-image: url('/assets/home.png');
+.icon-home img {
+    /*background-image: url('/assets/home.png');
+    background-color: aquamarine;*/
+    
+    
 }
 
 .button-text {
